@@ -1,4 +1,5 @@
-# Fact Table: 
+#Star Scehma Diagram
+## Fact Table: 
 
 movie_ratings
 * movie_id (int, foreign key referencing all movie tables)
