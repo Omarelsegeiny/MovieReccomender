@@ -11,25 +11,25 @@ movie_ratings
 
 mostPopularMovies_dim
 
-movie_id (int, primary key)
-rank (int)
-title (string)
-year (int)
+* movie_id (int, primary key)
+* rank (int)
+* title (string)
+* year (int)
 
 movies_genre_dim
 
-movie_id (int, foreign key referencing all movie tables)
-genre (string)
+* movie_id (int, foreign key referencing all movie tables)
+* genre (string)
 
 top250Movies_dim
 
-movie_id (int, primary key)
-rank (string)
-title (string)
+* movie_id (int, primary key)
+* rank (string)
+* title (string)
 
 allMovies_dim
 
-movie_id (int, primary key)
-rank (string)
-title (string)
-year (int)
+* movie_id (int, primary key)
+* rank (string)
+* title (string)
+* year (int)
