@@ -1,4 +1,4 @@
-#Star Scehma Diagram
+# Star Scehma Diagram
 ## Fact Table: 
 
 movie_ratings
