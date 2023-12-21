@@ -1,9 +1,9 @@
 # Fact Table: 
 
 movie_ratings
-movie_id (int, foreign key referencing all movie tables)
-imdb_rating (decimal)
-imdb_rating_count (decimal)
+* movie_id (int, foreign key referencing all movie tables)
+* imdb_rating (decimal)
+* imdb_rating_count (decimal)
 
 
 ## Dimension Tables:
