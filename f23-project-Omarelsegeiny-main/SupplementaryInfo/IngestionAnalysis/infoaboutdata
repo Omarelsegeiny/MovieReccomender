@@ -1,0 +1,4 @@
+# I have processed the data using databricks through Azure, and for the dataset that contains the main genre information, we are looking at around 9500
+# rows with 22 columns, most of them integer columns being either one or 0 (1 for yes, 0 for no) determining the genre of the movie such as action, horror, etc. Our other data source which contains some of IMDbs hottests hits, contains
+# around 100 rows, with approximately 10 columns showing information on the movie name, IMDb score and user rating score. The main goal is to rid the columns of the more useless info, such as empty data, and non useful columns, and then
+# to join/cross referecne the columns together by genre info to see the highest reccomended movies by IMDb for certain genres most consumers are interested in.
