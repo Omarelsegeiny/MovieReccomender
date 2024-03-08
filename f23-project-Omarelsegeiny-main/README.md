@@ -36,4 +36,4 @@ I also created a star schema that was then created using SQL statements in Azure
 
 While the scope of this was made for analysis, a machine-learning aspect would work very well for this project as well. This could be turned into an ML-based project that could help, for example, a streaming service recommend movies and other titles to viewers based on their likes, niches, and watch history.
 
-A graph created using PowerBI could be useful in serving, but I believe that this project was best left ending at the transformation standpoint as a mark of its versatility, and its ability to answer other questions through recent movie media. However, there are artifacts of the filtered data left in the repo as evidence of transformation.
+A graph was created using PowerBI and there are artifacts of the filtered data left in the repo as evidence of transformation.
