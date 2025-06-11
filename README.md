@@ -1,6 +1,8 @@
 
-Movie Recommender - Omar Elsegeiny
-Project Overview
+# Movie Recommender - Omar Elsegeiny
+
+## Project Overview
+
 Have you ever wanted to quickly find the best movies within your preferred genres? This movie recommendation system is here to make that task a breeze. It combines four valuable data sources: one containing detailed genre information about numerous movies, another containing IMDb's top 100 rated movies with genre data, and 2 other sources containing trending movies in theaters! By cross-referencing these sources, we can pinpoint the highest-rated movies within the genres you love.
 
 To answer some business-related questions to define the scope of this project, we have generated a few:
@@ -17,10 +19,10 @@ Data Integration: We meticulously merge these datasets, creating a comprehensive
 
 Enjoy the Magic: Once you receive the recommendations, it's time to sit back, relax, and enjoy some fantastic movies.
 
-Ingestion
+## Ingestion
 We have four main data sources: One from Kaggle.com, which contains many data gathering competitions and complex data sets, and an IMDb API that contains many of IMDb's popular data search content; in this case, we will be using an API that shows IMDb's top 100 rated movies across many genres, as well as sources containing some of the box office hits to find some of the most popular movies in some of the most popular genres, to recommend to many common viewers. This data was ingested using Python and pandas, a Python open-source data analysis and manipulation tool that can read data from these sources and store them as comma-separated values (.csv) files, which will then be stored in Azure Data Lake Storage (ADLS), a cloud-based, enterprise data lake solution. The data is then drawn out to Data-Bricks, a data engineering tool, which will be used to mold and siphon the data into a more useful form where we can move on to transformation and serving, the next parts of the product.
 
-Transformation & Serving
+## Transformation & Serving
 Concluding the project, we arrive at the final step of the data engineering cycle: transformation & serving. After siphoning the data through Databricks and using the .csv files generated to analyze our data, we can now answer some of the questions we have set for ourselves:
 
 Some of the top genres of film include: Animation, Drama, Crime, Romance, Adventure
